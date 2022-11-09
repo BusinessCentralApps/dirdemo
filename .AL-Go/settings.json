@@ -5,5 +5,7 @@
     "testFolders":  [
     ],
     "bcptTestFolders":  [
-    ]
+    ],
+    "UpdateDependencies":  true,
+    "gitHubRunner":  "bc-build"
 }
