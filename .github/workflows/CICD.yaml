@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows: ["Pull Request Handler"]
-    run_name: Test
     types:
       - completed
   push:
@@ -12,6 +11,8 @@ on:
       - 'README.md'
       - '.github/**'
     branches: [ 'main', 'release/*', 'feature/*' ]
+
+run_name: ${{ fromJson('["Test1","Test2"]')[github.event_name == 'workflow_run'] }}
 
 permissions:
   contents: read
