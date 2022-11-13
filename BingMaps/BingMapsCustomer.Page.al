@@ -1,7 +1,7 @@
 page 74124 "BingMaps Customer"
 {
     PageType = API;
-    Caption = 'BingMaps Customer Loc';
+    Caption = 'BingMaps Customer Locx';
     APIPublisher = 'microsoft';
     APIGroup = 'bingmaps';
     APIVersion = 'v1.0';
