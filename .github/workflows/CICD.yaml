@@ -133,6 +133,7 @@ jobs:
               Copy-Item $path -Destination $newFolder -Force
             }
           }
+          Remove-Item -Path $prfolder -recurse -force
 
       - name: Initialize the workflow
         id: init
