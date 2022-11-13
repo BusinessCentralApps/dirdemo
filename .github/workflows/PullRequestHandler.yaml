@@ -4,8 +4,6 @@ on:
   pull_request:
     paths-ignore:
       - '**.md'
-      - '**.ps1'
-      - '.github/**'
     branches: [ 'main' ]
 
 defaults:
