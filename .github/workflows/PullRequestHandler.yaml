@@ -5,7 +5,7 @@ on:
     paths-ignore:
       - '**.md'
       - '**.ps1'
-      - '**.yaml'
+      - '.github/**'
     branches: [ 'main' ]
 
 defaults:
