@@ -12,7 +12,7 @@ on:
       - '.github/**'
     branches: [ 'main', 'release/*', 'feature/*' ]
 
-run-name: ${{ fromJson(format('["","Check pull request #{0} from {1}/{2}: {3}"]',4,github.event.workflow_run.head_repository.owner.login,github.event.workflow_run.head_branch,github.event.workflow_run.display_title))[github.event_name == 'workflow_run'] }}
+run-name: ${{ fromJson(format('["","Check pull request #{0}"]',github.event.workflow_run.pull_requests[0].number))[github.event_name == 'workflow_run'] }}
 
 permissions:
   contents: read
