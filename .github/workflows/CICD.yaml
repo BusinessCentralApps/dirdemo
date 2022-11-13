@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   workflow_run:
     workflows: ["Pull Request Handler"]
+    run_name: Test
     types:
       - completed
   push:
