@@ -71,7 +71,7 @@ jobs:
 
       - name: Dump
         run: |
-          Write-Host "YESSIR!"
+          Write-Host "YES!"
 
       - name: 'Download Pull Request Changes'
         if: github.event_name == 'workflow_run'
