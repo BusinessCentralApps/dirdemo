@@ -11,5 +11,5 @@
                         ],
     "UpdateDependencies":  true,
     "gitHubRunner":  "bc-build",
-    "RepoVersion":  "1.1"
+    "RepoVersion":  "1.2"
 }
