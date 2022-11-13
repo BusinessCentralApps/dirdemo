@@ -1,11 +1,15 @@
-{
+﻿{
     "country":  "us",
     "appFolders":  [
-    ],
+
+                   ],
     "testFolders":  [
-    ],
+
+                    ],
     "bcptTestFolders":  [
-    ],
+
+                        ],
     "UpdateDependencies":  true,
-    "gitHubRunner":  "bc-build"
+    "gitHubRunner":  "bc-build",
+    "RepoVersion":  "1.1"
 }
